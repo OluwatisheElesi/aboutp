@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+  
+  @font-face {
+    font-family: "GillSansReg";
+    src: url(fonts//GillSansReg.ttc);
+  }
+  nav {
+    max-width: 980px;
+    /*r do a width of 70%*/
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    border-bottom: solid 2px black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo {
+    position: relative;
+    width: 69px;    
+    height: 60px;
+    border: solid 2px black;
+  }
+nav .logo span {
+      position: absolute;
+      bottom:-5px;
+      width: 40px;
+      color: black;
+ }
+
+nav .links {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    }
+nav .links span a {
+      text-decoration: none;
+      color: black;
+
+    }
+nav .links span {
+      color: red;
+
+    }
+  
+  .history {
+    max-width: 980px;
+    min-height: 378px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    bottom: -40px;
+  }
+  .history .history-title {
+    
+    font-size: 12px;
+    
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 15;top:20px;
+    
+    position: relative;
+    bottom: -17px;
+  }
+  
+  .history .history-title1 p {
+    margin-top: 50px;
+    position: relative;
+    bottom: -10px;
+    padding-top: 60px;
+    font-size: 12px;
+    width: 450px
+  }
+  .history .history-title2 p {
+    margin-top: 50px;
+    position: relative;
+    bottom: 205px;
+    padding-top: 60px;
+    font-size: 12px;
+    width: 450px;
+    left: 550px 
+  }
+  
+  .hero {
+    max-width: 980px;
+    height: 378px;
+    background-image: linear-gradient(to bottom, #3bceac8a, #3bceac8a ), url(../images/5.png);
+    margin: 0 auto;
+    position: relative;
+    bottom: -65px;
+  }
+
+  .hero .hero-title {
+    position: absolute;
+    bottom: 0;
+    color: #3bceab ;
+  }
+  .hero .hero-title .title-i {
+    font-size: 300px;
+    line-height: 0;
+    margin-right: 70px;
+  }
+  .hero .hero-title .title-food {
+    font-size: 140px;
+    line-height: 0;
+    left: 20px
+  }
+
+  footer {
+    /*maxwidth allows for a responsive screen*/
+    
+    font-size: 16px;
+    font-weight: "Ultra Bold" "Regular Italic";
+    height: 455px;
+    margin: 0 auto;
+    background-color: #ee4367;
+    padding: 60px;
+    justify-content: space-around;
+  }
+  
+  .words {
+    border-bottom: white;
+    position: relative;
+    width: 109px;    
+    height: 42px;
+    border: solid 2px white;
+    left: 650px;
+    bottom: 6px;
+  }
+  .words span {
+    color: white;
+    display: flex;
+    position: relative;
+    left: 30px;
+    bottom: -20px;
+  }
+  
+  .words1 {
+    color: white;
+    display: flex;
+    position: relative;
+    left: 200px;
+  }
+  
+  footer .address {
+    color: white;
+    position: relative;
+    padding: center;
+    bottom: 3px;
+    left: 380px;
+  }
+  footer .number {
+    position: relative;
+    padding: center;
+    bottom: -20px;
+    left: 200px;
+  }
+  footer .email {
+    position: relative;
+    padding: center;
+    bottom: -40px;
+    left: 90px;
+  }
+  
+  footer .signup {
+    position: relative;
+    bottom: -80px;
+    left: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+
+  footer .signup input {
+    height: 60px;
+    width: 529px;
+    background-color: #f56b88;
+    border: center;
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer input .placeholder {
+    color: #f56b88;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .signup .button {
+    height: 60px;
+    width: 167px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f56b88
+  }
+  
+  footer .fa {
+    padding: 11px;
+    font-size: 12px;
+    max-width: 35px;
+    text-align: center;
+    justify-items: space-around;
+    border-radius: 25%;
+  }
+  
+  footer .fa .fa:hover {
+    opacity: 1;
+    justify-content: space-evenly;
+    position: relative;
+    width: 35px;
+  }
+  
+  footer .fa .fa-facebook {
+    background: white;
+    color: #ee4367;
+    position: relative;
+    bottom: -128px;
+    left: -497px ;
+  
+  }
+  
+  footer .fa .fa-instagram {
+    background: white;
+    color: #ee4367;
+    position: relative;
+    bottom: -94px;
+    left: -448px ;
+  }
+  
+  footer .fa .fa-twitter {
+    background: white;
+    color: #ee4367;
+    position: relative;
+    bottom: -59px;
+    left: -400px ;
+  }
+  
+  footer .Copyright {
+    color: #f56b88;
+    position: relative;
+    bottom: -180px;
+    left: -570px;
+    width: 500px;
+  }
+  @media (max-width: 980px) {
+    footer {
+      flex-wrap: wrap;
+      /*if you wantit t in a column as t hte site gets smaller*/
+      width: 100%;
+      margin: top left auto;
+      padding: 80px;
+    }
+}
